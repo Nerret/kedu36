@@ -1,5 +1,10 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+.lato{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
 
 /* Soft reset */
 
@@ -19,6 +24,8 @@ a{
   color: inherit;
 }
 
+
+
 /* Header css */
 
 header{
@@ -27,12 +34,13 @@ header{
   background-color: #044C7F;
   position: relative;
   color: white;
+  height: 100px;
 }
 
 #logo{
   order: 0;
-  width: 300px;
-  height: 130px;
+  width: 200px;
+  height: 100px;
   position: absolute;
   left: 25px;
 }
@@ -45,14 +53,17 @@ header{
 #headerlist li{
   padding: 15px;
   width: 145px;
-  height: 25px;
+  height: 15px;
   border: solid white 3px;
   text-align: center;
   flex-direction: row;
   margin-right: 100px;
-  margin-top: 37px;
-  font-family: 'Lato', sans-serif;
+  margin-top: 27px;
   font-size: 25px;
+}
+
+#headerlist li p{
+  margin-top: -8px;
 }
 
 #uniqueli{
@@ -61,4 +72,100 @@ header{
 
 #headerimg{
   order: 4;
+}
+
+/* Dashboard / index css */
+
+#content{
+display: flex;
+align-content: flex-start;
+}
+
+#leftcontent{
+margin-left: 5%;
+width: 40%;
+height: 700px;
+margin-top: 25px;
+}
+
+.communitybox{
+  display: flex;
+  align-content: flex-start;
+  height: 175px;
+  margin: 40px;
+}
+
+.communitylogo{
+  width: 20%;
+  height: 135px;
+  margin: 20px;
+}
+
+.communitytitlep, .communitydescp{
+
+}
+
+.hrdontworkwithflex{
+  color: gray;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.communitylist{
+  margin-top: 35px;
+  margin-left: 5%;
+}
+
+#rightcontent{
+  flex-direction: column;
+}
+
+#toprightcontent{
+ margin-top: 100px;
+ height: 250px;
+ margin-right: -120px;
+ border: solid black 1px;
+}
+
+#rightcontent h2{
+  margin-top: 50px;
+  position: absolute;
+}
+
+#bottomrightcontent{
+  width: 850px;
+  height: 200px;
+  margin-top: 50px;
+  border: solid black 1px;
+}
+
+.dashpostface{
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin: 25px;
+}
+
+.dashname{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.devider{
+  width: 100%;
+  height: 1px;
+  margin-top: 50px;
+}
+
+.dashimg{
+  height: 110px;
+  position: absolute;
+  right: 200px;
+  top: 220px;
+}
+
+.dashp{
+  margin-left: 20px;
+  margin-top: 3px;
 }
