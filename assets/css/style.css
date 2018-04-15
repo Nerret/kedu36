@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 /* Soft reset */
 
 *{
@@ -11,6 +14,10 @@ ul, li{
   list-style-type: none;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
 
 /* Header css */
 
@@ -18,23 +25,40 @@ header{
   display: flex;
   justify-content: flex-end;
   background-color: #044C7F;
+  position: relative;
+  color: white;
+}
+
+#logo{
+  order: 0;
+  width: 300px;
+  height: 130px;
+  position: absolute;
+  left: 25px;
 }
 
 #headerlist{
   display: flex;
+  order: 2;
 }
 
 #headerlist li{
   padding: 15px;
-  width: 130px;
+  width: 145px;
   height: 25px;
   border: solid white 3px;
   text-align: center;
   flex-direction: row;
   margin-right: 100px;
   margin-top: 37px;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+}
 
+#uniqueli{
+  background-color: #764B8E;
 }
 
 #headerimg{
+  order: 4;
 }
