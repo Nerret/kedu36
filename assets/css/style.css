@@ -1,0 +1,39 @@
+/* Soft reset */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Genereal css */
+
+ul, li{
+  list-style-type: none;
+}
+
+
+/* Header css */
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #044C7F;
+}
+
+#headerlist{
+  display: flex;
+}
+
+#headerlist li{
+  padding: 15px;
+  width: 130px;
+  height: 25px;
+  border: solid white 3px;
+  text-align: center;
+  flex-direction: row;
+  margin-right: 100px;
+  margin-top: 37px;
+}
+
+#headerimg{
+}
