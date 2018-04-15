@@ -7,11 +7,15 @@
   </head>
   <body>
     <header>
+<<<<<<< HEAD:indexbu
       <ul id="headerlist">
         <li>Test</li>
         <li>Test2</li>
       </ul>
 <img id="headerimg" src="assets/img/headerright.png"/>
+=======
+      
+>>>>>>> d0fc2d2b87b02713127504d292adebbc4bb02159:index.html
     </header>
 
   </body>
