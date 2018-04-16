@@ -280,6 +280,150 @@ margin-top: 25px;
   text-decoration-color: #044C7F;
 }
 
+/* post css */
+
+#postcontent{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#posttop{
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+#posttop img, #posttop h1{
+  float: left;
+}
+
+#posttop h1{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+#posttop img{
+  width: 120px;
+  height: 120px;
+}
+
+#postcontent h1{
+  max-width: 700px;
+  margin-bottom: 80px;
+  margin-left: 9.5%;
+}
+
+#posterinfo{
+  float: left;
+  width: 115px;
+  text-align: center;
+}
+
+#posterinfo li{
+  margin-top: 3px;
+  opacity: 0.55;
+}
+
+#postmiddle{
+  align-self: flex-end;
+}
+
+#postmiddle p{
+  width: 40%;
+  margin-left: 20%;
+  margin-top: -50px;
+  float: left;
+}
+
+#vidcon{
+
+}
+
+#videocon img{
+  float: left;
+  margin-top: -137px;
+  width: 200px;
+  height: 200px;
+  padding-left: 178px;
+  padding-right: 177px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  border: solid #044C7F 2px;
+  margin-left: 70px;
+}
+
+/*#videocon iframe{
+  float: left;
+  margin-top: -137px;
+}*/
+
+#commentbox{
+  width: 100%;
+  float: left;
+}
+
+#commentbox button{
+  width: 75px;
+  height: 25px;
+  background-color: #044C7F;
+  color: white;
+  position: absolute;
+  top: 625px;
+  left: 385px;
+  margin-bottom: 150px;
+}
+
+#commentbox textarea{
+   margin-left: 20%;
+   border #044C7F 2px;
+   -webkit-box-shadow: 3px 5px 5px -2px rgba(0,0,0,0.65);
+   -moz-box-shadow: 3px 5px 5px -2px rgba(0,0,0,0.65);
+   box-shadow: 3px 5px 5px -2px rgba(0,0,0,0.65);
+}
+
+#postbody{
+  position: relative;
+  min-height: 1200px;
+}
+
+#comments{
+  width: 40%;
+  margin-left: 20%;
+  margin-top: 140px;
+}
+
+#comments img{
+  width: 70px;
+  height: 70px;
+}
+
+#commentsbox{
+  margin-top: 370px;
+}
+
+#postio{
+   position: absolute;
+   left: 380px;
+}
+
+#postio li{
+  display: block;
+  float: left;
+  margin-top: 120px;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+#commentsbox img{
+  margin-top: 20px;
+}
+
+#postvotes{
+  width: 90px;
+  height: 400px;
+  position: absolute;
+  bottom: 418px;
+  left: 12.2%;
+}
 
 /* shameful spagetti fixer code */
 
