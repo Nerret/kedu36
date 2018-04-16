@@ -50,7 +50,7 @@ header{
   order: 2;
 }
 
-#headerlist li{
+#headerlist li:not(:first-of-type){
   padding: 15px;
   width: 145px;
   height: 15px;
@@ -200,4 +200,97 @@ margin-top: 25px;
 .dashp{
   margin-left: 20px;
   margin-top: 3px;
+}
+
+/* Community css */
+
+#communitycontent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#communitycontent img{
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: -10%;
+}
+
+.votes{
+  display: flex;
+  flex-direction: column;
+  margin-top: 270px;
+}
+
+.votes li{
+  margin-left: -100px;
+}
+
+.votecollum{
+  margin-top: 70px;
+}
+
+.votes li:nth-child(2){
+}
+
+.post{
+}
+
+.postpcon{
+  margin-left: 14.7%;
+  margin-top: 30px;
+}
+
+.post h3{
+  margin-top: -110px;
+  margin-left: 15%;
+}
+
+.postoptions{
+  display: flex;
+  flex-direction: row;
+  margin-left: 11%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.postoption{
+  margin-left: 20px;
+  margin-right: 20px;
+  align-self: flex-start;
+}
+
+#communitybody{
+  min-height: 1200px;
+  position: relative;
+}
+
+.arrowbox{
+  height: 50px;
+  width: 40px;
+  background-image: url(../img/arrow.png);
+  background-repeat: no-repeat;
+  background-size: 25px 15px;
+}
+
+.communitya:hover{
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color: #044C7F;
+}
+
+
+/* shameful spagetti fixer code */
+
+.fun{
+  margin-top: -30px;
+}
+
+.print{
+margin-top: 130px;
+}
+
+.meet{
+margin-top: 130px;
 }
