@@ -74,6 +74,26 @@ header{
   order: 4;
 }
 
+/* Footer css */
+
+footer{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: #044C7F;
+  bottom: 0;
+}
+
+footer img{
+  height: 95px;
+  width: auto;
+  margin-top: 0px;
+}
+
+#rightfooterimg{
+  float: right;
+}
+
 /* Dashboard / index css */
 
 #content{
@@ -116,15 +136,22 @@ margin-top: 25px;
   margin-left: 5%;
 }
 
+.communitybox li a:hover{
+ text-decoration: underline;
+ text-decoration-color: #044C7F;
+ text-decoration-style: double;
+}
+
 #rightcontent{
   flex-direction: column;
+  margin-top: 50px;
 }
 
 #toprightcontent{
  margin-top: 100px;
  height: 250px;
  margin-right: -120px;
- border: solid black 1px;
+ border: solid white 1px;
 }
 
 #rightcontent h2{
@@ -136,7 +163,12 @@ margin-top: 25px;
   width: 850px;
   height: 200px;
   margin-top: 50px;
-  border: solid black 1px;
+  border: solid white 1px;
+}
+
+#keduh2{
+  margin-left: 12px;
+  margin-top: -5px!important;
 }
 
 .dashpostface{
@@ -161,8 +193,8 @@ margin-top: 25px;
 .dashimg{
   height: 110px;
   position: absolute;
-  right: 200px;
-  top: 220px;
+  right: 240px;
+  top: 250px;
 }
 
 .dashp{
