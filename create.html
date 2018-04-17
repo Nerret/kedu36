@@ -1,41 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>KEDU</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
-    <header class="lato">
-      <ul id="headerlist">
-        <li><a href="index.html"><img id="logo" alt="kubologonegative" src="assets/img/kubologonegative.svg"/></a></li>
-        <li><a class="headera" href="#1"><p>Lesson plans</p></a></li>
-        <li><a class="headera" href="#2"><p>Training</p></a></li>
-        <li id="uniqueli"><a class="headera" href="#3"><p>Make a post</p></a></li>
-        <li><a class="headera" href="#4"><p>Profile</p></a></li>
-      </ul>
-<img id="headerimg" alt="headerright" src="assets/img/headerright.png"/>
-    </header>
-<div id="createcontent" class="lato">
-<div id="createleft">
-<form action="#" method="POST" accept-charset="ISO-8859-1">
-<ul>
-<li><input type="text" id="title" placeholder="Post title"/></li>
-<li><label> Video and images</li>
-<li><input id="file" type="file"/>
-</label></li>
-<li><input id="url" type="url" placeholder="Links to videos or images"/></li>
-<li><textarea rows="6" cols="30"></textarea></li>
-</ul>
-</form>
-</div>
-<div id="createright">
-
-</div>
-</div>
-<footer>
-<img id="leftfooterimg" alt="footerleft" src="assets/img/footerleft.png"/>
-<img id="rightfooterimg"alt="footerleft" src="assets/img/footerright.png"/>
-</footer>
-  </body>
+   <head>
+      <meta charset="utf-8">
+      <title>KEDU</title>
+      <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+   <body>
+      <header class="lato">
+         <ul id="headerlist">
+            <li><a href="index.html"><img id="logo" alt="kubologonegative" src="assets/img/kubologonegative.svg"/></a></li>
+            <li>
+               <a class="headera" href="#1">
+                  <p>Lesson plans</p>
+               </a>
+            </li>
+            <li>
+               <a class="headera" href="#2">
+                  <p>Training</p>
+               </a>
+            </li>
+            <li id="uniqueli">
+               <a class="headera" href="#3">
+                  <p>Make a post</p>
+               </a>
+            </li>
+            <li>
+               <a class="headera" href="#4">
+                  <p>Profile</p>
+               </a>
+            </li>
+         </ul>
+         <img id="headerimg" alt="headerright" src="assets/img/headerright.png"/>
+      </header>
+      <div id="createcontent" class="lato">
+         <div id="createleft">
+            <form action="#" method="POST" accept-charset="ISO-8859-1">
+               <ul>
+                  <li><input type="text" id="title" placeholder="Post title"/></li>
+                  <li>
+                     <select>
+                        <option>Select a sub board to post to</option>
+                        <option>Everything KEDU and KUBO</option>
+                        <option>In the class room</option>
+                        <option>Courses and crazy builds</option>
+                     </select>
+                  </li>
+                  <li class="formseparator"></li>
+                  <label for="input['file']"> Video and images</label>
+                  <li><input id="file" type="file"/></li>
+                  <li class="formseparator"></li>
+                  <li><input id="url" type="url" placeholder="Links to videos or images"/></li>
+                  <li class="formseparator"></li>
+                  <label for="textarea">Post description</label>
+                  <li><textarea rows="9" cols="70"></textarea></li>
+                  <li class="formseparatorsmall"></li>
+                  <li><button type="submit" id="postsubmit">Submit post</button></li>
+               </ul>
+            </form>
+         </div>
+         <div id="createright">
+            <div id="rightleft">
+               <p>Ut at lectus a leo mollis malesuada quis sit amet nisl. Sed convallis in urna ac pretium. Maecenas quis pellentesque eros. Nam ornare ac nisl pellentesque viverra. In a laoreet dolor. Morbi vel mi vehicula, elementum turpis vitae, dapibus mauris. Pellentesque gravida sit amet sapien sit amet lobortis. Sed rutrum, magna in mollis congue, nulla ipsum vehicula augue, a lacinia odio sem sed neque. Etiam laoreet, velit et vestibulum semper, ante nunc vestibulum quam, quis mollis purus turpis condimentum dui. Vivamus non ante ultrices eros dapibus mollis. Duis posuere et augue eget feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut volutpat arcu ante, nec hendrerit magna viverra at. Curabitur ac feugiat magna. </p>
+            </div>
+            <div id="rightright">
+               <img src="assets/img/rules.png" alt="rules"/>
+            </div>
+         </div>
+      </div>
+      <footer>
+         <img id="leftfooterimg" alt="footerleft" src="assets/img/footerleft.png"/>
+         <img id="rightfooterimg" alt="footerleft" src="assets/img/footerright.png"/>
+      </footer>
+   </body>
 </html>
