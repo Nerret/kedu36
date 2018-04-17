@@ -115,6 +115,7 @@ footer img{
     font-size: 32px;
     margin: 20px;
     text-align: center;
+    font-family: Lato;
   }
   .firstpost{
     text-align: center;
@@ -123,6 +124,7 @@ footer img{
     border: 1px solid darkgrey;
     border-radius: 40px 40px 40px 40px;
     padding: 20px;
+    font-family: Lato;
 
 
   }
@@ -133,6 +135,7 @@ footer img{
     border: 1px solid darkgrey;
     border-radius: 40px 40px 40px 40px;
     padding: 20px;
+    font-family: Lato;
 
 
   }
@@ -143,6 +146,7 @@ footer img{
     border: 1px solid darkgrey;
     border-radius: 40px 40px 40px 40px;
     padding: 20px;
+    font-family: Lato;
 
   }
   .content a{
@@ -159,6 +163,7 @@ footer img{
   .settings li{
     margin: 50px;
     flex-direction: column;
+    font-family: Lato;
   }
   .settings ul{
     max-width: 33.333%;
@@ -173,11 +178,13 @@ footer img{
 #profilepicture p{
   font-size: 32px;
   text-align: center;
+  font-family: Lato;
 }
 #profilepicture h1{
   margin: 25px 0 0 0;
   text-align: center;
   font-size: 32px;
+  font-family: Lato;
 }
 #profilepicture{
   background-color: #fff;
