@@ -24,7 +24,9 @@ a{
   color: inherit;
 }
 
-
+body{
+  background-color: #f1f1f2;
+}
 
 /* Header css */
 
